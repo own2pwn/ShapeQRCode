@@ -5,9 +5,9 @@
       location = "group:Examples.playground">
    </FileRef>
    <FileRef
-      location = "container:/Users/geroembser/Developer/Helper-Apps/ShapeQRCode/ShapeQRCode.xcodeproj">
+      location = "container:ShapeQRCode.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/geroembser/Developer/Helper-Apps/ShapeQRCode/Example/ShapeQRCode Example.xcodeproj">
+      location = "group:Example/ShapeQRCode Example.xcodeproj">
    </FileRef>
 </Workspace>
