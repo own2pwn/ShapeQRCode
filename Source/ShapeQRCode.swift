@@ -188,7 +188,12 @@ public extension ShapeQRCode {
         //create the renderer for the given length and scale
         
         ///The renderer for the image
-        let rendererFormat = UIGraphicsImageRendererFormat(for: UIScreen.main.traitCollection)
+        let rendererFormat: UIGraphicsImageRendererFormat
+        if #available(iOS 11.0, *) {
+            rendererFormat = UIGraphicsImageRendererFormat(for: UIScreen.main.traitCollection)
+        } else {
+            rendererFormat = UIGraphicsImageRendererFormat()
+        }
         rendererFormat.scale = scale
         
         let renderer = UIGraphicsImageRenderer(size: size, format: rendererFormat)
