@@ -12,7 +12,7 @@ s.source = { :git => 'https://github.com/geroembser/ShapeQRCode.git',
              :submodules => true
             }
 
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '10.0'
 s.swift_version = '4.2'
 
 #define the source files
