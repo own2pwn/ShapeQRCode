@@ -7,13 +7,13 @@ s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 s.summary = 'Swift QR code generator where the black squares can be replaced by shapes and images can be included in the QRCode'
 
-s.source = { :git => 'https://github.com/geroembser/ShapeQRCode.git',
+s.source = { :git => 'https://github.com/own2pwn/ShapeQRCode.git',
              :tag => s.version,
              :submodules => true
             }
 
 s.ios.deployment_target = '10.0'
-s.swift_version = '4.2'
+s.swift_version = '5.1'
 
 #define the source files
 s.source_files = 'Source/*.{swift,h,m}', 'nayuki-QR-Code-Generator/c/qrcodegen.{h,c}'
